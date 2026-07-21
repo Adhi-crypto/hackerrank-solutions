@@ -7,6 +7,11 @@
 # Language    python3
 # Status      Accepted
 # Submitted   2026-07-22, 12:29 a.m.
+# Technique   set-sort-filter
+# Time        O(N log N)
+# Space       O(N)
+# Trick       The code uses set() to extract unique scores and sorted() to identify the second lowest value efficiently.
+# Hint        set() loses original order, requiring a second pass.
 # ──────────────────────────────────────────────────
 
 students = []
