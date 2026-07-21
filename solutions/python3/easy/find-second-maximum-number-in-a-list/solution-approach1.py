@@ -7,6 +7,11 @@
 # Language    python3
 # Status      Accepted
 # Submitted   2026-07-22, 12:45 a.m.
+# Technique   set-sort-indexing
+# Time        O(N log N)
+# Space       O(N)
+# Trick       The set() constructor removes duplicates, allowing sorted() to order unique elements for easy access via the [-2] index.
+# Hint        set() does not preserve input order.
 # ──────────────────────────────────────────────────
 
 n = int(input())
