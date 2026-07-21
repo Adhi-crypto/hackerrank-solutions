@@ -7,6 +7,11 @@
 # Language    python3
 # Status      Accepted
 # Submitted   2026-07-22, 12:40 a.m.
+# Technique   explicit-type-casting
+# Time        O(1)
+# Space       O(1)
+# Trick       The code uses int() and float() constructors to cast standard input strings into numeric types for arithmetic operations.
+# Hint        input() always returns a string, requiring explicit type conversion.
 # ──────────────────────────────────────────────────
 
 
